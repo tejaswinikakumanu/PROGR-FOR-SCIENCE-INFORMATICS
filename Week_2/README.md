@@ -25,16 +25,16 @@ This project includes a Unix shell script designed to automate the process of do
 
 ## How to Run the Script
 
-1. Download and save the script as `UnixASG.sh`.
+1. Download and save the script as `Assignment_1.sh`.
 2. Open your terminal.
-3. Navigate to the folder containing `UnixASG.sh` using the `cd` command.
+3. Navigate to the folder containing `Assignment_1.sh` using the `cd` command.
 4. Make the script executable (if required):
    ```
-   chmod +x UnixASG.sh
+   chmod +x Assignment_1.sh.sh
    ```
 5. Run the script:
    ```
-   ./UnixASG.sh
+   ./Assignment_1.sh
    ```
 
 ---
@@ -48,9 +48,3 @@ This project includes a Unix shell script designed to automate the process of do
   - The total number of lines in the file
 
 ---
-
-## Notes
-
-- Ensure you have an active internet connection for file downloads.
-- Sufficient disk space is required to store and extract the genome assemblies.
-- The script is intended for educational use in the "Programming for Science Informatics" course (Week 2 assignment).
