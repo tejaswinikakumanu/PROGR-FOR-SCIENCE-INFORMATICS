@@ -18,7 +18,7 @@ This project includes a Unix shell script designed to automate the process of do
 
 ## Prerequisites
 
-- **wget**: Command-line utility for downloading files from the web (Tested with version 1.21.5).
+- **wget**: Command-line utility for downloading files from the web .
 - **gunzip**: Tool to decompress `.gz` files.
 
 ---
