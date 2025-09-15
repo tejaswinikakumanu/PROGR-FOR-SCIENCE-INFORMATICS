@@ -1,40 +1,56 @@
-Assignment 1 | Introduction to Unix
+# Assignment 1 | Introduction to Unix
 
-Programmer Name: Tejaswini Kakumanu
+**Programmer:** Tejaswini Kakumanu  
+**Language Used:** Unix Shell Script  
+**Date:** 14th September 2025
 
-Language Used: Unix Shell Script
-Date: 14th September 2025
+---
 
-Project Overview:
+## Project Overview
 
-This Unix shell script is designed to automatically download all secondary assemblies for human chromosome 1 from the UCSC Genome Browser. It extracts the downloaded files, organizes them into a specific directory, and generates a detailed summary file that includes information such as filenames, line counts, and sample contents.
+This project includes a Unix shell script designed to automate the process of downloading all secondary assemblies for human chromosome 1 from the UCSC Genome Browser. The script performs the following tasks:
+- Downloads all relevant chromosome 1 assembly files.
+- Extracts the downloaded `.gz` files.
+- Organizes the extracted files into a dedicated directory.
+- Generates a summary report containing essential information about each file.
 
-Prerequisites:
+---
 
-wget: Used for fetching chromosome 1 assemblies (Tested with version 1.21.5)
+## Prerequisites
 
-gunzip: Required to decompress the .gz files after download
+- **wget**: Command-line utility for downloading files from the web (Tested with version 1.21.5).
+- **gunzip**: Tool to decompress `.gz` files.
 
-How to Run the Script:
+---
 
-Download and save the script with the name UnixASG.sh.
+## How to Run the Script
 
-Open your terminal.
+1. Download and save the script as `UnixASG.sh`.
+2. Open your terminal.
+3. Navigate to the folder containing `UnixASG.sh` using the `cd` command.
+4. Make the script executable (if required):
+   ```
+   chmod +x UnixASG.sh
+   ```
+5. Run the script:
+   ```
+   ./UnixASG.sh
+   ```
 
-Use the cd command to navigate to the folder containing the script.
+---
 
-Execute the script with the following command:
+## Output
 
-./UnixASG.sh
+- **Informatics_573/**: Directory containing all downloaded and unzipped chromosome 1 assembly files.
+- **data_summary.txt**: A summary file containing, for each downloaded file:
+  - The filename
+  - The first 10 lines of its contents
+  - The total number of lines in the file
 
-Output Files and Folders:
+---
 
-Informatics_573/: A directory that stores all downloaded and unzipped chromosome 1 assembly files.
+## Notes
 
-data_summary.txt: A text file summarizing each downloaded file. It includes:
-
-The filename
-
-The first 10 lines of its contents
-
-The total number of lines in each file
+- Ensure you have an active internet connection for file downloads.
+- Sufficient disk space is required to store and extract the genome assemblies.
+- The script is intended for educational use in the "Programming for Science Informatics" course (Week 2 assignment).
