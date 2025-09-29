@@ -1,6 +1,9 @@
 Assignment 2 | Introduction to Python 
+
 Programmer: Tejaswini Kakumanu  
+
 Language Used: Python  
+
 Date: 28th September 2025  
 
 Project Overview  
