@@ -1,9 +1,7 @@
 # Assignment 2 | Differential Gene Expression Analysis
 
 **Programmer:** Tejaswini Kakumanu  
-**Language Used:** Python (Jupyter Notebook)  
-**Date:** 12th October 2025  
-
+**Language Used:** Jupyter Notebook
 ---
 
 ## Project Overview
